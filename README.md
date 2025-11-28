@@ -98,6 +98,18 @@ docker run -d -p 3000:3000 \
 
 Then open http://localhost:3000 to finish setup (API keys, models, etc.).
 
+To run this in background without the terminal open:
+
+```bash
+docker start perplexica-no-ads
+```
+
+To stop the container:
+
+```bash
+docker stop perplexica-no-ads
+```
+
 #### Using Perplexica with Your Own SearxNG Instance
 
 If you already have SearxNG running, build the slim image and pass your URL:
